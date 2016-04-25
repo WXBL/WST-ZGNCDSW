@@ -96,14 +96,7 @@
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
-+ (id)userVipPassword {
-    return [[NSUserDefaults standardUserDefaults] objectForKey:M_USER_VIP_PASSWORD];
-}
 
-+ (void)setUserVipPassword:(id)userVipPassword {
-    [[NSUserDefaults standardUserDefaults] setObject:userVipPassword forKey:M_USER_VIP_PASSWORD];
-    [[NSUserDefaults standardUserDefaults] synchronize];
-}
 
 + (id)userPhone {
     return [[NSUserDefaults standardUserDefaults] objectForKey:M_USER_PHONE];
